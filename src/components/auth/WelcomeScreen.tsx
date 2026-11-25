@@ -13,12 +13,11 @@ import {
   Info
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
+import cvtIllustrationImg from '../../assets/images/cvt_system_illustration_1792758252385.jpg';
 
 export const WelcomeScreen: React.FC = () => {
   const { navigateTo } = useApp();
   const [imageError, setImageError] = useState(false);
-
-  const cvtIllustrationPath = '/src/assets/images/cvt_system_illustration_1792758252385.jpg';
 
   const benefits = [
     {
@@ -104,7 +103,7 @@ export const WelcomeScreen: React.FC = () => {
             <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 p-2 shadow-xl">
               {!imageError ? (
                 <img
-                  src={cvtIllustrationPath}
+                  src={cvtIllustrationImg}
                   alt="Skema Sistem Transmisi CVT Sepeda Motor Matic Honda"
                   referrerPolicy="no-referrer"
                   onError={() => setImageError(true)}

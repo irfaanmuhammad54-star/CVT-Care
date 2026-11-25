@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/45311c27-bf88-4a5d-9054-6ab6624a0ab7
+vercel.app
 
 ## Run Locally
 

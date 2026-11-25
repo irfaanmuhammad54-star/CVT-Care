@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-vercel.app
+cvt-care.vercel.app
 
 ## Run Locally
 

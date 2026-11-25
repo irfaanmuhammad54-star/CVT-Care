@@ -1,0 +1,6 @@
+{
+  "name": "CVT Care",
+  "description": "Sistem Pendukung Keputusan Identifikasi Awal Kerusakan CVT pada Sepeda Motor Matic Honda Menggunakan Metode TOPSIS Berbasis Web.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
